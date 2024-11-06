@@ -1,0 +1,16 @@
+{
+    "version":2,
+    "builds":[
+        {
+            "src":"./index.js",
+            "use":"@vercel/node"
+        }/workspaces/codespaces-express/hello/controller
+        
+/workspaces/codespaces-express/hello/controller
+    ],
+    "routes":[{
+        "src":"/(.*)",
+        "dest":"/"
+    }
+]
+}
